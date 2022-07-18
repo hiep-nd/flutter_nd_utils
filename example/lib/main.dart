@@ -1,7 +1,22 @@
+import 'package:example/auto_unfocus_page.dart';
 import 'package:example/flip_animation_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  Widget _buildMenuItem(String text, Widget Function(BuildContext) builder) =>
+      Builder(
+        builder: (context) => Center(
+          child: TextButton(
+            child: Text(text),
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: builder,
+              ));
+            },
+          ),
+        ),
+      );
+
   runApp(
     MaterialApp(
       title: 'NDUtils Examples',
@@ -12,18 +27,10 @@ void main() {
         body: SafeArea(
           child: Column(
             children: [
-              Builder(
-                builder: (context) => Center(
-                  child: TextButton(
-                    child: const Text('NDFlipAnimation'),
-                    onPressed: () {
-                      Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => const FlipAnimationPage(),
-                      ));
-                    },
-                  ),
-                ),
-              )
+              _buildMenuItem(
+                  'NDFlipAnimation', (context) => const FlipAnimationPage()),
+              _buildMenuItem(
+                  'NDAutoUnfocus', (context) => const AutoUnfocusPage()),
             ],
           ),
         ),

@@ -7,8 +7,6 @@
 
 library nd_utils;
 
-// external packages
-export 'package:nd_core_utils/nd_core_utils.dart';
-// internals
+export 'package:nd_utils/nd_auto_unfocus.dart';
 export 'package:nd_utils/nd_flip_animation_builder.dart';
 export 'package:nd_utils/nd_state_utils.dart';
