@@ -9,3 +9,7 @@
 ## 1.0.1
 * Removed ```nd_core_utils``` exportion
 * Added ```NDAutoUnfocus```
+
+## 1.0.2
+* Added ```NDJs*```
+* Added ```NDDateTimeUtils```
