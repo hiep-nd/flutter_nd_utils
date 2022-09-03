@@ -10,5 +10,4 @@ library nd_utils;
 export 'package:nd_utils/nd_auto_unfocus.dart';
 export 'package:nd_utils/nd_date_format_utils.dart';
 export 'package:nd_utils/nd_flip_animation_builder.dart';
-export 'package:nd_utils/nd_json.dart';
 export 'package:nd_utils/nd_state_utils.dart';

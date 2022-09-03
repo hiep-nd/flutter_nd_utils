@@ -13,3 +13,6 @@
 ## 1.0.2
 * Added ```NDJs*```
 * Added ```NDDateTimeUtils```
+
+## 1.0.3
+* Moved ```NDJs*``` to ```NDCoreUtils```
