@@ -16,3 +16,9 @@
 
 ## 1.0.3
 * Moved ```NDJs*``` to ```NDCoreUtils```
+
+## 1.0.3
+* Moved ```NDJs*``` to ```NDCoreUtils```
+
+## 1.0.4
+* Added ```NDStatefulBuilder```

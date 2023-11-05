@@ -1,5 +1,6 @@
 import 'package:example/auto_unfocus_page.dart';
 import 'package:example/flip_animation_page.dart';
+import 'package:example/stateful_builder_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,6 +32,7 @@ void main() {
                   'NDFlipAnimation', (context) => const FlipAnimationPage()),
               _buildMenuItem(
                   'NDAutoUnfocus', (context) => const AutoUnfocusPage()),
+              _buildMenuItem('NDStatefulBuilder', (_) => statefulBuilderPage())
             ],
           ),
         ),
