@@ -11,9 +11,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  intl:
+  intl: ^0.17.0
+  device_info_plus: ^4.0.0
   
-  nd_core_utils: ^1.0.0
+  nd_core_utils: ^1.0.17
     # path: ../nd_core_utils
 
 dev_dependencies:

@@ -7,6 +7,7 @@
 
 library nd_utils;
 
+export 'package:nd_utils/nd_absolute_dimention_design/nd_absolute_dimention_design.dart';
 export 'package:nd_utils/nd_auto_unfocus.dart';
 export 'package:nd_utils/nd_date_format_utils.dart';
 export 'package:nd_utils/nd_flip_animation_builder.dart';
