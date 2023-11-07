@@ -1,6 +1,6 @@
 name: nd_utils
 description: A utility library.
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/hiep-nd/flutter_nd_utils
 
 environment:

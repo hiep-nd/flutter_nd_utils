@@ -22,3 +22,6 @@
 
 ## 1.0.4
 * Added ```NDStatefulBuilder```
+
+## 1.0.5
+* Added ```NDMaterialStatePropertyUtils```
